@@ -6,6 +6,7 @@
     "cloud-helper-database-helper": "packages/cloud-helper/database-helper",
     "cloud-helper-file-helper": "packages/cloud-helper/file-helper",
     "core-core-1": "packages/core/core-1",
-    "core-core-2": "packages/core/core-2"
+    "core-core-2": "packages/core/core-2",
+    "packagedemo": "packages/packagedemo"
   }
 }
