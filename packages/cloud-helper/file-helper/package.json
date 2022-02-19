@@ -1,5 +1,5 @@
 {
-  "name": "@corelib-demo/cloud-helper/file-helper",
+  "name": "@cloud-helper/file-helper",
   "version": "0.0.1",
   "type": "commonjs",
   "scripts": {
