@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "hello-js": "packages/hello-js",
     "hello-tsc": "packages/hello-tsc"
   }
 }
