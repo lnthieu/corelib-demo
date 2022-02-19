@@ -1,1 +1,1 @@
-export * from './lib/cloud-helper-file-helper';
+export * from './lib/file-helper';

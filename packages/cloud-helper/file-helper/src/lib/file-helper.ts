@@ -1,3 +1,5 @@
-export function cloudHelperFileHelper(): string {
-  return 'cloud-helper-file-helper';
-}
+
+export interface FileHelper {
+  checkExisted(path: string, isPublic: boolean): Promise<boolean>;
+  version(): string;
+};
