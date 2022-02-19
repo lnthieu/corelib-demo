@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@corelib-demo/cloud-helper/file-helper": [
+        "packages/cloud-helper/file-helper/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
