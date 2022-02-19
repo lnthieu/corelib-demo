@@ -1,1 +1,1 @@
-export * from './lib/aws-cloud-s3-helper';
+export * from './lib/s3-helper';
