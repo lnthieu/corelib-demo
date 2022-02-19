@@ -14,22 +14,7 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {
-      "@corelib-demo/aws-cloud/dynamodb-helper": [
-        "packages/aws-cloud/dynamodb-helper/src/index.ts"
-      ],
-      "@corelib-demo/aws-cloud/s3-helper": [
-        "packages/aws-cloud/s3-helper/src/index.ts"
-      ],
-      "@corelib-demo/cloud-helper/database-helper": [
-        "packages/cloud-helper/database-helper/src/index.ts"
-      ],
-      "@corelib-demo/cloud-helper/file-helper": [
-        "packages/cloud-helper/file-helper/src/index.ts"
-      ],
-      "@corelib-demo/core/core-1": ["packages/core/core-1/src/index.ts"],
-      "@corelib-demo/core/core-2": ["packages/core/core-2/src/index.ts"]
-    }
+    "paths": {}
   },
   "exclude": ["node_modules", "tmp"]
 }

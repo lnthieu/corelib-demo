@@ -1,7 +1,0 @@
-{
-  "name": "@corelib-demo/packagedemo",
-  "version": "0.0.1",
-  "scripts": {
-    "test": "node index.js"
-  }
-}
