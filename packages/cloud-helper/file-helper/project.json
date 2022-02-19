@@ -1,0 +1,33 @@
+{
+  "root": "packages/cloud-helper/file-helper",
+  "sourceRoot": "packages/cloud-helper/file-helper/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "options": {
+        "outputPath": "dist/packages/cloud-helper/file-helper",
+        "main": "packages/cloud-helper/file-helper/src/index.ts",
+        "tsConfig": "packages/cloud-helper/file-helper/tsconfig.lib.json",
+        "assets": [
+          "packages/cloud-helper/file-helper/*.md"
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": [
+        "{options.outputFile}"
+      ],
+      "options": {
+        "lintFilePatterns": [
+          "packages/cloud-helper/file-helper/**/*.ts"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

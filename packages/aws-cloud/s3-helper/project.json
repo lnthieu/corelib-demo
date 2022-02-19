@@ -1,0 +1,33 @@
+{
+  "root": "packages/aws-cloud/s3-helper",
+  "sourceRoot": "packages/aws-cloud/s3-helper/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": [
+        "{options.outputPath}"
+      ],
+      "options": {
+        "outputPath": "dist/packages/aws-cloud/s3-helper",
+        "main": "packages/aws-cloud/s3-helper/src/index.ts",
+        "tsConfig": "packages/aws-cloud/s3-helper/tsconfig.lib.json",
+        "assets": [
+          "packages/aws-cloud/s3-helper/*.md"
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": [
+        "{options.outputFile}"
+      ],
+      "options": {
+        "lintFilePatterns": [
+          "packages/aws-cloud/s3-helper/**/*.ts"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
