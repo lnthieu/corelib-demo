@@ -15,16 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@corelib-demo/cloud-helper/file-helper": [
-        "packages/cloud-helper/file-helper/src/index.ts"
-      ],
-      "@corelib-demo/database-helper": [
-        "packages/cloud-helper/database-helper/src/index.ts"
-      ],
-      "@corelib-demo/dynamod-helper": [
-        "packages/aws-cloud/dynamodb-helper/src/index.ts"
-      ],
-      "@corelib-demo/s3-helper": ["packages/aws-cloud/s3-helper/src/index.ts"]
+      "@corelib/hello-tsc": ["packages/hello-tsc/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

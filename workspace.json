@@ -1,9 +1,6 @@
 {
   "version": 2,
   "projects": {
-    "aws-cloud-dynamodb-helper": "packages/aws-cloud/dynamodb-helper",
-    "aws-cloud-s3-helper": "packages/aws-cloud/s3-helper",
-    "cloud-helper-database-helper": "packages/cloud-helper/database-helper",
-    "cloud-helper-file-helper": "packages/cloud-helper/file-helper"
+    "hello-tsc": "packages/hello-tsc"
   }
 }
