@@ -1,4 +1,4 @@
-import { FileHelper } from "@corelib-demo/cloud-helper/file-helper"
+import { FileHelper } from "@corelib/file-helper"
 import * as AWS from 'aws-sdk';
 
 const s3 = new AWS.S3();//for test s3
