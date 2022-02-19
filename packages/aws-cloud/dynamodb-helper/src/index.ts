@@ -1,1 +1,1 @@
-export * from './lib/aws-cloud-dynamodb-helper';
+export * from './lib/dynamodb-helper';

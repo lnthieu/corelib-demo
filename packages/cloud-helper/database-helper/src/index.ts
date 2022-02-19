@@ -1,1 +1,1 @@
-export * from './lib/cloud-helper-database-helper';
+export * from './lib/database-helper';
