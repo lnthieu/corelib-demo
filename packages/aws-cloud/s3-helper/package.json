@@ -1,0 +1,12 @@
+{
+  "name": "@corelib-demo/s3-helper",
+  "version": "0.0.1",
+  "type": "commonjs",
+  "scripts": {
+    "build": "echo 'implement build'",
+    "test": "echo 'implement test'"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1077.0"
+  }
+}
