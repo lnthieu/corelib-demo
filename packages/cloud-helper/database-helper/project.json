@@ -5,27 +5,19 @@
   "targets": {
     "build": {
       "executor": "@nrwl/js:tsc",
-      "outputs": [
-        "{options.outputPath}"
-      ],
+      "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/packages/cloud-helper/database-helper",
         "main": "packages/cloud-helper/database-helper/src/index.ts",
         "tsConfig": "packages/cloud-helper/database-helper/tsconfig.lib.json",
-        "assets": [
-          "packages/cloud-helper/database-helper/*.md"
-        ]
+        "assets": ["packages/cloud-helper/database-helper/*.md"]
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": [
-        "{options.outputFile}"
-      ],
+      "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": [
-          "packages/cloud-helper/database-helper/**/*.ts"
-        ]
+        "lintFilePatterns": ["packages/cloud-helper/database-helper/**/*.ts"]
       }
     }
   },

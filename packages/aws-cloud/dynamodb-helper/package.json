@@ -1,5 +1,5 @@
 {
-  "name": "@corelib/dynamodb-helper",
+  "name": "@corelib/aws-cloud/dynamodb-helper",
   "version": "0.0.1",
   "type": "commonjs"
 }

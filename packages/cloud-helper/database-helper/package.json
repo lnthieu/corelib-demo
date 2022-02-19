@@ -1,5 +1,5 @@
 {
-  "name": "@corelib/database-helper",
+  "name": "@corelib/cloud-helper/database-helper",
   "version": "0.0.1",
   "type": "commonjs"
 }

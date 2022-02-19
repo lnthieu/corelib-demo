@@ -10,14 +10,25 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": [
-      "es2017",
-      "dom"
-    ],
+    "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@corelib/aws-cloud/dynamodb-helper": [
+        "packages/aws-cloud/dynamodb-helper/src/index.ts"
+      ],
+      "@corelib/aws-cloud/s3-helper": [
+        "packages/aws-cloud/s3-helper/src/index.ts"
+      ],
+      "@corelib/cloud-helper/database-helper": [
+        "packages/cloud-helper/database-helper/src/index.ts"
+      ],
+      "@corelib/cloud-helper/file-helper": [
+        "packages/cloud-helper/file-helper/src/index.ts"
+      ],
+      "@corelib/core/core-1": ["packages/core/core-1/src/index.ts"],
+      "@corelib/core/core-2": ["packages/core/core-2/src/index.ts"],
       "@corelib/database-helper": [
         "packages/cloud-helper/database-helper/src/index.ts"
       ],
@@ -27,13 +38,8 @@
       "@corelib/file-helper": [
         "packages/cloud-helper/file-helper/src/index.ts"
       ],
-      "@corelib/s3-helper": [
-        "packages/aws-cloud/s3-helper/src/index.ts"
-      ]
+      "@corelib/s3-helper": ["packages/aws-cloud/s3-helper/src/index.ts"]
     }
   },
-  "exclude": [
-    "node_modules",
-    "tmp"
-  ]
+  "exclude": ["node_modules", "tmp"]
 }

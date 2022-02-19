@@ -5,27 +5,19 @@
   "targets": {
     "build": {
       "executor": "@nrwl/js:tsc",
-      "outputs": [
-        "{options.outputPath}"
-      ],
+      "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/packages/aws-cloud/s3-helper",
         "main": "packages/aws-cloud/s3-helper/src/index.ts",
         "tsConfig": "packages/aws-cloud/s3-helper/tsconfig.lib.json",
-        "assets": [
-          "packages/aws-cloud/s3-helper/*.md"
-        ]
+        "assets": ["packages/aws-cloud/s3-helper/*.md"]
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": [
-        "{options.outputFile}"
-      ],
+      "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": [
-          "packages/aws-cloud/s3-helper/**/*.ts"
-        ]
+        "lintFilePatterns": ["packages/aws-cloud/s3-helper/**/*.ts"]
       }
     }
   },

@@ -5,27 +5,19 @@
   "targets": {
     "build": {
       "executor": "@nrwl/js:tsc",
-      "outputs": [
-        "{options.outputPath}"
-      ],
+      "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/packages/aws-cloud/dynamodb-helper",
         "main": "packages/aws-cloud/dynamodb-helper/src/index.ts",
         "tsConfig": "packages/aws-cloud/dynamodb-helper/tsconfig.lib.json",
-        "assets": [
-          "packages/aws-cloud/dynamodb-helper/*.md"
-        ]
+        "assets": ["packages/aws-cloud/dynamodb-helper/*.md"]
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
-      "outputs": [
-        "{options.outputFile}"
-      ],
+      "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": [
-          "packages/aws-cloud/dynamodb-helper/**/*.ts"
-        ]
+        "lintFilePatterns": ["packages/aws-cloud/dynamodb-helper/**/*.ts"]
       }
     }
   },

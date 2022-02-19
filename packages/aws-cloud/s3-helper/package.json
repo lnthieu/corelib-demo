@@ -1,5 +1,5 @@
 {
-  "name": "@corelib/s3-helper",
+  "name": "@corelib/aws-cloud/s3-helper",
   "version": "0.0.1",
   "type": "commonjs"
 }

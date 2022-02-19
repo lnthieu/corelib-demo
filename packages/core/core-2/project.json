@@ -1,0 +1,25 @@
+{
+  "root": "packages/core/core-2",
+  "sourceRoot": "packages/core/core-2/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/core/core-2",
+        "main": "packages/core/core-2/src/index.ts",
+        "tsConfig": "packages/core/core-2/tsconfig.lib.json",
+        "assets": ["packages/core/core-2/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/core/core-2/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}
