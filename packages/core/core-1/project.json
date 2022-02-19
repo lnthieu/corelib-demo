@@ -1,0 +1,15 @@
+{
+  "root": "packages/core/core-1",
+  "sourceRoot": "packages/core/core-1/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/core/core-1/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

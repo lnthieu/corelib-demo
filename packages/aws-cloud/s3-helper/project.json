@@ -1,0 +1,15 @@
+{
+  "root": "packages/aws-cloud/s3-helper",
+  "sourceRoot": "packages/aws-cloud/s3-helper/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/aws-cloud/s3-helper/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

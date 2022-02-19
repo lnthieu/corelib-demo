@@ -1,0 +1,15 @@
+{
+  "root": "packages/aws-cloud/dynamodb-helper",
+  "sourceRoot": "packages/aws-cloud/dynamodb-helper/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/aws-cloud/dynamodb-helper/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

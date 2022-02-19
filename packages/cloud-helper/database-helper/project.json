@@ -1,0 +1,15 @@
+{
+  "root": "packages/cloud-helper/database-helper",
+  "sourceRoot": "packages/cloud-helper/database-helper/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/cloud-helper/database-helper/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}
